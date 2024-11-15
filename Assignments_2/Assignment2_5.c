@@ -1,3 +1,5 @@
+//Accept One Number from user and check Given Number is Odd or Even.
+
 #include<stdio.h>
 #include<stdbool.h>
 
