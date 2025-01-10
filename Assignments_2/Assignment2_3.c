@@ -1,4 +1,12 @@
-// Accept one number from user if number is less than 10 then print "Hello" otherwise print"Demo".
+/*  Accept one number from user if number is less than 10 then print "Hello" otherwise print"Demo".
+
+Input - 5
+Output - Hello
+
+Input- 12
+Output- Demo
+
+*/	
 
 #include<stdio.h>
 
