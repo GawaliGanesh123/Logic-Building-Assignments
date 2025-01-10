@@ -1,5 +1,9 @@
-// Accept one number from user and print that number of * on Screen using while loop.
+/* Accept one number from user and print that number of * on Screen using while loop.
 
+Input - 5
+Output - * * * * *
+ 
+*/
 #include<stdio.h>
 
 void Accept(int iNo)
