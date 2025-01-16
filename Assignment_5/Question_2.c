@@ -1,39 +1,33 @@
-/* Write a program which accept number from user and display its Factors in Decreasing Order.
+/* Write a program which accept number from user and print numbers till that number.
 
-Input- 12
-Output- 6 4 3 2 1
+Input- 8
+Output- 1 2 3 4 5 6 7 8 
 
 */
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 #include<stdio.h>
-#include<stdbool.h>
 
-
-void FactRev(int iNo)
+void Display(int iNo)
 {
-  int iCnt=0;
-  int iRev=0;
-  
-  for(iCnt=iNo-1; iCnt<iNo; iCnt--)
-  {
-    if(iNo % iCnt ==0)
-    {
-         printf("%d\t",iCnt);
-    }
-  }
-   
+	int iCnt=0;
+
+	for(iCnt=1; iCnt<=iNo; iCnt++)
+	{
+	   printf("%d\t",iCnt);
+	}
 }
+
 
 int main()
 {
-	 int iValue=0;
-	 int iRet=0;
+     int iValue=0;
 
-	printf("Enter the Number:\n");
-	scanf("%d",&iValue);
-     
-    FactRev(iValue);
-     
+     printf("Enter the Number:\n");
+     scanf("%d",&iValue);
+
+     Display(iValue);
+
 	return 0;
 }
