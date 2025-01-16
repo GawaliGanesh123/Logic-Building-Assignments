@@ -1,45 +1,35 @@
+/* Write a program which accept Number from user and print all odd number up to N.
 
-/* Write a program which accept number from user and return summation of all its non factors.
+Input-  18
+Output- 1	3	5	7	9	11	13	15	17
 
-Input: 12
-Output: 50
+*/
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Input: 10
-Output: 37
 
-/*
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-  
 #include<stdio.h>
 
-int SumNonFact(int iNo)
+void DisplayOdd(int iNo)
 {
 	int iCnt=0;
-	int iSum=0;
 
-	for(iCnt=1; iCnt<iNo; iCnt++)
+	for(iCnt=1; iCnt<=iNo; iCnt++)
 	{
-	  if(iNo % iCnt != 0)
-	  {
-        iSum= iSum+iCnt;
-	  }
+	   if(iCnt % 2 != 0)
+	   {
+	     printf("%d\t", iCnt);
+	   }
 	}
-	  return iSum;
 }
 
 int main()
 {
-	int iValue=0;
-	int iRet=0;
-     
-     printf("Enter the Number:\n");
-     scanf("%d",&iValue);
+    int iValue=0;
 
-    iRet= SumNonFact(iValue);
+    printf("Enter the Number:\n");
+    scanf("%d",&iValue);
 
-    printf("Summation of non Factor is:%d",iRet);
-
+    DisplayOdd(iValue);
 
 	return 0;
 }
