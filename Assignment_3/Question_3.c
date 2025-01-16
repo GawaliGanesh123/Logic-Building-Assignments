@@ -1,10 +1,10 @@
-/* Write a program which accept number from user and print even factors of that number.
+/* Write a program which accept number from user and print Odd factors of that number.
 
 Input: 36
 Output: 3 9 
 
 */
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #include<stdio.h>
 
@@ -24,7 +24,7 @@ void DisplayOddFactor(int iNo)
      	{
      		if(iCnt % 2 != 0)
      		{
-     			printf("\n%d\t",iCnt);
+     			printf("%d\t",iCnt);
      		}
      		
      	}
