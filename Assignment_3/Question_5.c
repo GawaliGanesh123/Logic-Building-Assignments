@@ -1,15 +1,15 @@
-/* Accept on character from user and check whether that character is vowel (a,e,i,o,u) or not.
+/* Accept one character from user and check whether that character is vowel (a,e,i,o,u) or not.
   
 Input: E 
 Output: TRUE
   
-Input: dd 
+Input: d
 Output: FALSE
 
 */
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#include<stdio.h>3
+#include<stdio.h>
 #include<stdbool.h>
 
 
