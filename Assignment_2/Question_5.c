@@ -20,11 +20,11 @@ bool ChkEven(int iNo)
 
 	if(iNo % 2 == 0)
 	{
-	  return 1;
+	   return 1;
 	}
 	else
 	{
-       return 0;
+          return 0;
 	}
 }
 
