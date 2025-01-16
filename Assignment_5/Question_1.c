@@ -1,47 +1,36 @@
-/* Write a program which accept number from user and Display its multiplication of factors.
+/* Write a program which accept number from user and print that number of $ and * on screen.
 
-Input: 12 
-Output : 144    (1*2*3*4*6)
+Input- 5
+Output- $	*	&	*	&	*	&	*	&	*
 
-Input- 10
-Output- 10      (1*2*5)
+Input- 3
+Output- &	*	&	*	&	*
 
 */
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #include<stdio.h>
-#include<stdbool.h>
 
 
-int MultFact(int iNo)
+void Display(int iNo)
 {
+    int iCnt=0;
 
-  int iCnt=0;
-   int iMult=1;
-
-  for(iCnt=1; iCnt<iNo; iCnt++)
-  {
-    if(iNo % iCnt ==0)
+    for(iCnt=1; iCnt<=iNo; iCnt++)
     {
-      iMult = iMult*iCnt;
-    }   
-  }
-    return iMult;
-
+       printf("$\t");
+       printf("*\t");
+    }
 }
-
-
 
 int main()
 {
-	 int iValue=0;
-	 int iRet=0;
-	printf("Enter the Number:\n");
-	scanf("%d",&iValue);
-     
-    iRet=MultFact(iValue);
-     
-   printf("Multiplication of factors is:%d\n",iRet);
+    int iValue=0;
+
+    printf("Enter the number:\n");
+    scanf("%d",&iValue);
+
+    Display(iValue);
 
 	return 0;
 }
