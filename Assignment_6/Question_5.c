@@ -8,7 +8,7 @@ Output-4096
 
 #include<stdio.h>
 
-int OddFactorial(int iNo)
+int OddFactorial(int iNo) 
 {
 	int iCnt=0, iAns=1;
 
