@@ -1,7 +1,7 @@
 /* Write a program to find Even Factorial of given number.
 
-Input-5
-Output-25   
+Input-8
+Output-384
 
 */
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -16,7 +16,7 @@ int EvenFactorial(int iNo)
 	{
        if(iCnt % 2 == 0)
        {
-       	  iAns=iAns*iNo;
+       	  iAns=iAns*iCnt;
        }
 	}
 
