@@ -1,7 +1,7 @@
 /* Write a program to find Odd Factorial of given number.
 
 Input-8
-Output-4096
+Output-105
 
 */
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -16,7 +16,7 @@ int OddFactorial(int iNo)
 	{
        if(iCnt % 2 != 0)
        {
-       	  iAns=iAns*iNo;
+       	  iAns=iAns*iCnt;
        }
 	}
 
