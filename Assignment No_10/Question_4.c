@@ -19,7 +19,7 @@ void Swap(int iNo1, int iNo2)
 
 	printf("After Swapping:iNo1-%d & iNo2-%d",iNo1, iNo2);
 }
-
+ 
 int main()
 {
     int iValue1=0, iValue2=0;
