@@ -34,7 +34,7 @@ int  MultDigits(int iNo)
 	}
 	   return iMult;
 
-}
+} 
 
 int main()
 {
