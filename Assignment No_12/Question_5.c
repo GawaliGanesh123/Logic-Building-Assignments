@@ -42,7 +42,7 @@ int  CountDiffernce(int iNo)
 	   return iSum-iOdd;
 
 }
-
+ 
 int main()
 {
 	int iValue=0, iRet=0; 
