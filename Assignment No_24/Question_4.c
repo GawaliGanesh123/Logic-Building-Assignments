@@ -15,7 +15,7 @@ Output : * * * * * *
 
 #include<stdio.h>
 
-
+ 
 void DisplayPattern(int iRow, int iCol)
 {
 	int i=0,j=0;
