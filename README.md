@@ -2,7 +2,7 @@
 
 This repository contains solutions to **50 assignments** completed during the **Logic Building batch** at **Marvellous Infosystems, Pune**.
 
-Each assignment consists of **5 problems** (total 250+ problems), designed to strengthen your understanding of core programming concepts.
+Each assignment consists of **5 problems** (total 250+ problems), designed to strengthen understanding of core programming concepts.
 
 ---
 
@@ -25,7 +25,7 @@ The problems span a wide variety of fundamental and advanced topics, including:
 ## 🚀 Objective
 
 > "Practice makes perfect!"  
-These assignments were aimed at improving my **problem-solving skills**, **logical thinking**, and **programming fundamentals** using the C programming language.
+These assignments were aimed at improving my **problem-solving skills**, **logical thinking**, and **programming fundamentals** using the C, C++ and Java programming language.
 
 ---
 
